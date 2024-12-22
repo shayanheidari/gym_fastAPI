@@ -7,3 +7,5 @@ a gym membership and workout plan API written in fastAPI.
 - administrator
 - member
 - coach
+hello
+
