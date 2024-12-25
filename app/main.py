@@ -3,6 +3,7 @@ from .database import engine
 from .models import Base
 from .routers import users
 
+# TODO: change sqlalchemy to sqlmodel
 
 Base.metadata.create_all(bind=engine)
 app = FastAPI()
